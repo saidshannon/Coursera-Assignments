@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%
+}
+
+p{
+	
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid black;
+	position: absolute;
+	top: -15px;
+	right: 0%;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#p1{
+	
+	background-color: red;
+}
+#p2{
+
+	background-color: pink;
+}
+#p3{
+	
+	background-color: yellow;
+}
+
+section>div{
+	background-color: grey;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	height: 200px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	overflow: auto;
+
+	
+}
+@media(min-width: 992px){
+	.cl4{
+		float: left;
+		width:33.33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.cla6{
+		float: left;
+		width: 50%;
+	}
+	.cla60{
+	float: left;
+	width:100%;
+	}
+	}
+
+	
