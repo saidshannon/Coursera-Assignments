@@ -6,7 +6,7 @@ nav>div{
 	background-color: grey;
 }
 .navbar-header{
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 }
 h1{
 	text-align: center;
@@ -29,10 +29,9 @@ h1{
   border-top: 1px solid black;
   border-right: 0px;
   border-left: 0px;
-
 }
 
-#navlist a:hover{
+#navlist li:hover{
   background-color: lightgrey;
 
 }
@@ -49,8 +48,6 @@ p{
   color: black;
   font-size: 2em;
 }
-
-
 
 @media (max-width: 768px){
   .navbar-collapse{
