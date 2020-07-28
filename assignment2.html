@@ -17,7 +17,9 @@
 		<nav class="navbar navbar-default">
   			<div class="container-fluid">
   				<div class="navbar-header">
-  					<a class="navbar-brand" href="assignment2.html"><h1>Food,LLC</h1></a>
+  					<a class="navbar-brand" href="assignment2.html">
+              <h1>Food,LLC</h1>
+            </a>
       			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span  id="icon" class="icon-bar"></span>
@@ -27,26 +29,57 @@
       		</div>		
    				<div id="bs-example-navbar-collapse-1"class="collapse navbar-collapse">
             <ul id="navlist" class="nav navbar-nav">
-              <li>
-                <a href="#" class="visible-xs">Chicken</a>
+              <li class="text-center">
+                <a href="#Chicken" class="visible-xs"><p class="item">Chicken</p></a>
               </li>
-              <li>
-                <a href="#" class="visible-xs">Beef</a>    
+              <li class="text-center">
+                <a href="#Beef" class="visible-xs"><p class="item">Beef</p></a>    
               </li>
-              <li>
-                <a href="#" class="visible-xs">Sushi</a>
+              <li class="text-center">
+                <a href="#Sushi" class="visible-xs"><p class="item">Sushi</p></a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <h1>Our Menu</h1>
+    <h1 id="Menu">Our Menu</h1>
 
-      
-        <div id="chicken" class="container-fluid">
-          <p>Chicken</p>
-        </div>  
-          
+      <div id= container class="container-fluid">
+
+        <section id="sections" class=" row col-xs-12 col-md-6 col-lg-4">
+          <div id=Chicken>
+            <div>
+            Chicken
+            </div>
+            <a href="#Menu">
+              <p>Back to top<p>
+            </a>
+
+
+          </div>
+        </section>
+        <section id="sections"class=" row col-xs-12 col-md-6 col-lg-4">
+          <div id="Beef">
+            <div>
+            Beef
+            </div>
+            <a href="#Menu">
+              <p>Back to top<p>
+            </a>
+          </div>
+        </section>
+        <section id="sections"class=" row col-xs-12 col-md-12 col-lg-4">
+          <div id="Sushi">
+            <div>
+            Sushi
+            </div>
+            <a href="#Menu">
+              <p>Back to top<p>
+            </a>
+          </div>
+        </section>  
+      </div>
+        
           
         
       

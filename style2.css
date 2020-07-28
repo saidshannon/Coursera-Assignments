@@ -1,16 +1,20 @@
 .navbar-brand h1{
 	color: black;
 	margin:0px;
+  font-size: 4em;
 }
 nav>div{
 	background-color: grey;
 }
-.navbar-header{
-	padding-bottom: 15px;
+.navbar-header.navbar-header{
+	
+ padding-bottom: 40px;
+
 }
-h1{
+#Menu{
 	text-align: center;
   margin-bottom: 30px;
+  font-size: 4em;
 }
 #icon{
 	background-color: black;
@@ -18,7 +22,8 @@ h1{
 }
 #navlist a{
   color: black;
-  text-align: center;
+  font-size: 2em;
+  
 
 }
 .navbar-collapse{
@@ -35,21 +40,36 @@ h1{
   background-color: lightgrey;
 
 }
-#chicken{
+#sections{
+ 
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+section>div{
+  width: 95%;
   background-color: grey;
   height: 1000px;
-  margin-right:50px;
-  margin-left:50px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 20px;
-
+  position: relative;
 }
-p{
+
+section>div>div{
   text-align: center;
   color: black;
+  font-size: 3em;
+}
+section>div>a>p{
   font-size: 2em;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
   .navbar-collapse{
   background-color: white;
 }
